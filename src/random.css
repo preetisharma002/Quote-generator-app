@@ -1,0 +1,64 @@
+.head-container span {
+  color: #537bff;
+}
+
+.quote-container p {
+  font-family: var(--font-para);
+}
+.quote-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #f0eaea63;
+  padding: 49px 34px;
+  border-radius: 25px 25px 0 0;
+  border-bottom: 3px solid #537bff;
+  text-align: center;
+  width: 70%;
+  height: auto;
+  z-index: -1;
+}
+.quote-image {
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-content button {
+  border: 2px solid transparent;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.button-content button:hover {
+  border: 2px solid #537bff;
+}
+
+@media screen and (max-width: 768px) {
+  .head-container {
+    width: 96%;
+    text-align: center;
+  }
+  .head-container h1 {
+    font-size: 1.5em;
+    width: 96%;
+  }
+  .head-container p {
+    font-size: 1.5em;
+  }
+  .quote-container {
+    height: 200px;
+    width: 93%;
+  }
+  .quote-container p {
+    width: 100%;
+    padding-inline: 10px;
+  }
+}
