@@ -33,14 +33,11 @@ This is a React application built using Vite and styled with Tailwind CSS. It ge
    npm install
    ```
 
-````
-
-
 4. Start the development server:
 
    ```sh
    npm run dev
-````
+   ```
 
 App is running on port http://localhost:5173/
 
@@ -49,7 +46,3 @@ App is running on port http://localhost:5173/
 ![Alt text](./public/Screenshot%202024-07-10%20224533.png)
 
 ![Alt text](./public/mobile-capture.png)
-
-```
-
-```
