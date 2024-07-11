@@ -61,7 +61,7 @@ const Random = () => {
       <div className="quote-head flex items-center justify-center flex-col gap-7">
         <div className="quote-container ">
           <img src={quote.image} alt={quote.author} className="quote-image" />
-          <p className="font-bold text-[1.2em] capitalize">" {quote.text} "</p>
+          <p className="font-bold text-[1.2em] capitalize"> "{quote.text}" </p>
           <p className="italic">{quote.author}</p>
         </div>
         <div className="button-content flex items-center justify-center p-6 ">

@@ -13,31 +13,39 @@ This is a React application built using Vite and styled with Tailwind CSS. It ge
 - To get started with this project, follow these steps:
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/preetisharma002/Random-quote-generator.git
-   Navigate to the project directory:
+
    ```
 
+2. Navigate to the project directory:
+
+   ```sh
+   cd random-quote-generator
+
+
+   ```
+
+3. Install the dependencies:
+
+   ```sh
+   npm install
+
+   ```
+
+4. Start the development server:
+
 ```sh
-2. Copy code
-cd random-quote-generator
-Install the dependencies:
-
-
-3. Copy code
-npm install
-Start the development server:
-
-
-4. Copy code
 npm run dev
 
 App is running on port http://localhost:5173/
 
-```
+
 
 ## ScreenShots📷
 
 ![Alt text](./public/Screenshot%202024-07-10%20224533.png)
 
 ![Alt text](./public/mobile-capture.png)
+```
